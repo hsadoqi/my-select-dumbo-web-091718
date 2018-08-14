@@ -6,5 +6,6 @@ def my_select(collection)
  y = yield(collection[i])
  if y == true
    x << collection[i]
- else 
+ end
+ 
 end
