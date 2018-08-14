@@ -7,5 +7,7 @@ def my_select(collection)
  if y == true
    x << collection[i]
  end
- 
+ i+=1 
+ end
+ x
 end
